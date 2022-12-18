@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Client</title>
+    <script type="text/javascript" src="/eel.js"></script>
+    <link rel="stylesheet" href="./css/init.css">
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+
+<body>
+    <div class="form">
+        <div class="groupGroup">
+            <div class="inputGroup">
+                <input type="text" id="ip" placeholder=" " required value="127.0.0.1">
+                <label for="ip">ip</label>
+            </div>
+            <div class="inputGroup">
+                <input type="number" id="num" placeholder=" " required value="11">
+                <label for="num">數值</label>
+            </div>
+        </div>
+        <button id="connectingBtn">傳送</button>
+    </div>
+    <div id="container"></div>
+    <script src="./js/writeMsg.js"></script>
+    <script src="./js/Client.js"></script>
+</body>
+
+</html>
